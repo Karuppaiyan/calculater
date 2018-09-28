@@ -1,20 +1,58 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<div class="wrapper"> 
+	<div class="wrap-container">
+			<div class="container">
+                     <div class="row">
+                        <div class="col-lg-13">
+                          <img class="logo" src="assets/images/logo.png">
+                        </div>
+                    </div>
 
+                    <div class="row">
+                        <div class="col-lg-12 title">
+                          <h4>LOCK IT UP,</h4>
+                          <h3>HOME LOAN</h3>      
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-12 savings">
+                        <h5>FIXED TERM SAVINGS</h5>            
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-12 savings">
+                        <h6>Your Investment</h6> 
+                    
+                        <div class="submit">
+                            <input id="amount" type="text" [(ngModel)] = "value" class="textbx" placeholder="Type your Amount" >
+                            <button (click) = "addValues()" type="submit" class="sub" id="btn-text"></button>
+                        </div>         
+                        <div class="clear">
+                        		</div>  
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-12 rate">
+                        <h4>INTEREST RATE</h4>   
+                    
+                        <div class="rates">
+                        <div><div class="months">12 Months <span class="strong">(0.90% AER)</span></div><div class="shape"><img src="assets/images/shape.png"></div><input id="12month" type="text" name="12month"  class="textbx" [(ngModel)] = "result1" placeholder="" readonly></div>
+                        <div><div class="months">24 Months <span class="strong">(1.00% AER)</span></div><div class="shape"><img src="assets/images/shape.png"></div><input id="18month" type="text" name="18month"  class="textbx" [(ngModel)] = "result2" placeholder="" readonly></div>
+                        <div><div class="months">36 Months <span class="strong">(1.20% AER)</span></div><div class="shape"><img src="assets/images/shape.png"></div><input id="36month" type="text" name="36month"  class="textbx" [(ngModel)] = "result3"placeholder="" readonly></div>
+                        
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-12 but">
+                         <a class="invest" id="invest" href="#" target="_blank">Start your Investment now</a>         
+                        </div>
+                    </div>
+
+</div>
+
+</div>
+</div>
